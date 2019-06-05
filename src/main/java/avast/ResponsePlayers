@@ -1,0 +1,17 @@
+package avast;
+
+import java.util.ArrayList;
+
+public class ResponsePlayers {
+
+    private ArrayList<Double> predictedWage;
+
+    public ResponsePlayers(ArrayList<Double> predictedWage) {
+        this.predictedWage = predictedWage;
+    }
+
+    public ArrayList<Double> getWage() {
+        return predictedWage;
+    }
+
+}
